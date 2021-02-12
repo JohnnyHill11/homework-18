@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+table {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: #ece7e7;
+  border-collapse: collapse;
+  border: 1px solid #333;
+  text-align: center;
+}
+td {
+  padding: 5px 63px;
+  border: 1px solid #050505;
+  color: #000;
+}
+.form {
+  text-align: center;
+  max-width: 840px;
+  margin: 0 auto;
+}
+.first-input {
+  width: 192px;
+}
+.last-input {
+  width: 204px;
+}
+.phone-input {
+  width: 232px;
+}
+.add-btn {
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  padding: 7px 5px;
+  color: #fff;
+  background: #ed4c5c;
+  text-transform: uppercase;
+}
+.form-input {
+  border-radius: 3px;
+  text-indent: 10px;
+  outline: none;
+  border: 1px solid #333;
+  font-size: 14px;
+  padding: 6px 0;
+  color: #000;
+  margin-bottom: 60px;
+}
+.form-input:focus {
+  border: 2px solid #ed4c5c;
+}
+button {
+  cursor: pointer;
+  background: #ed4c5c;
+  outline: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #0f0f0f;
+  padding: 4px 12px;
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.wrap {
+  max-width: 700px;
+  margin: 20px auto 40px ;
+}
+.list {
+  width: 550px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.list-item {
+  position: relative;
+  background: #e0dcdd;
+  border: 1px solid #cfc8c8;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#input {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #132743e6;
+  border: 1px solid #333;
+  border-radius: 6px;
+  margin-right: 10px;
+  text-indent: 20px;
+  outline: none;
+  margin-top: 20px;
+}
+#input:focus {
+  border: 2px solid #ed4c5c;
+}
+#button {
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ed4c5c;
+  border: 2px solid  #ed4c5c;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.delete-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 16px 10px 16px;
+  background: #ed4c5c;
+  cursor: pointer;
+}
+.checked {
+  background: #82f191;
+} */

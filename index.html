@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact table 2.0</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="Resourse.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body> 
+  <form id="contact-form" class="form">
+    <table id="table" class="my-table">
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Surname</td>
+          <td>Phone</td>
+          <td>Actions</td>
+        </tr>
+      </thead>
+      <tbody id="contact-list-id" class="contact-list"></tbody>
+    </table>
+    <input id="first-name" class="first-input form-input" name="name" type="text" placeholder="Enter name">
+    <input id="last-name" class="last-input form-input" name="surname" type="text" placeholder="Enter surname">
+    <input id="phone-number" class="phone-input form-input" name="phone" type="tel" placeholder="Enter phone">
+    <button id="add-btn-id" class="add-btn" type="submit">Add</button>
+  </form>
+  <script type="text/template" id="contact-Template">
+    <tr class="contact-row" data-id = "{{id}}">
+        <td>{{name}}</td>
+        <td>{{surname}}</td>
+        <td>{{phone}}</td>
+        <td><button type="button" class="delete-btn">Delete</button></td>
+    </tr>
+  </script>
+</body>
+</html>
