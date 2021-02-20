@@ -33,6 +33,7 @@ td {
 .phone-input {
   width: 232px;
 }
+
 .add-btn {
   width: 200px;
   border-radius: 3px;
@@ -65,9 +66,16 @@ button {
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #0f0f0f;
-  padding: 4px 12px;
   border-radius: 2px;
 }
+.delete-btn {
+  padding: 4px 12px;
+}
+.edit-btn {
+  padding: 4px 22px;
+  margin-bottom: 5px;
+}
+
 
 
 

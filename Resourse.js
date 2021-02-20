@@ -25,11 +25,15 @@ class Resourse {
   post(data) {
     return this.request('', 'POST', data);
   }
+  
+  put(id, data) {
+    return this.request(id, 'PUT', data);
+  }
 
   add(data) {
     return this.post(data);
   }
-
+  
   list() {
     return this.get();
   }

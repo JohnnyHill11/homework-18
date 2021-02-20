@@ -21,9 +21,10 @@
       </thead>
       <tbody id="contact-list-id" class="contact-list"></tbody>
     </table>
-    <input id="first-name" class="first-input form-input" name="name" type="text" placeholder="Enter name">
-    <input id="last-name" class="last-input form-input" name="surname" type="text" placeholder="Enter surname">
-    <input id="phone-number" class="phone-input form-input" name="phone" type="tel" placeholder="Enter phone">
+    <input id="contactId"  class="form-input" type="hidden" name="id"/>
+    <input id="first-name" class="first-input form-input" name="name" type="text" placeholder="Enter name"/>
+    <input id="last-name" class="last-input form-input" name="surname" type="text" placeholder="Enter surname"/>
+    <input id="phone-number" class="phone-input form-input" name="phone" type="tel" placeholder="Enter phone"/>
     <button id="add-btn-id" class="add-btn" type="submit">Add</button>
   </form>
   <script type="text/template" id="contact-Template">
@@ -31,7 +32,10 @@
         <td>{{name}}</td>
         <td>{{surname}}</td>
         <td>{{phone}}</td>
-        <td><button type="button" class="delete-btn">Delete</button></td>
+        <td>
+          <button type="button" class="edit-btn">Edit</button>
+          <button type="button" class="delete-btn">Delete</button>
+        </td>
     </tr>
   </script>
 </body>
